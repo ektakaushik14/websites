@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: "Poppins";
+}
+.main {
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 60%;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+.nav nav {
+  flex: 2;
+}
+.button-nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-nav button {
+  padding: 0.5rem 3rem;
+  border: none;
+  color: rgb(15, 89, 119);
+  background-color: transparent;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  outline: none;
+}
+.upper {
+  height: 50vh;
+  background-position: left;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/881633/pexels-photo-881633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left h1 {
+  font-size: 2.3rem;
+}
+.lower {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+}
+.left button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: rgb(168, 125, 67);
+  border: none;
+  border-radius: 0.2rem;
+}
+img {
+  height: 3rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.part1,
+.part2,
+.part3 {
+  flex: 1;
+  padding: 0.4rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.part1 {
+  background-color: #fed142;
+}
+.part2 {
+  background-color: #50c2a0;
+}
+.part3 {
+  background-color: #3ba7f0;
+}
+
+.part1 h1,
+.part2 h1,
+.part3 h1 {
+  font-size: 1.6rem;
+
+  text-align: justify;
+  height: 30%;
+  color: whitesmoke;
+  font-stretch: expanded;
+}
+.part1 h2,
+.part2 h2,
+.part3 h2 {
+  font-size: 1rem;
+  color: rgb(77, 77, 77);
+
+  font-stretch: expanded;
+}
+
+.lower .button {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+  margin-bottom: 0.6rem;
+}
+.lower button {
+  padding: 0.3rem 0.4rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+span {
+  text-decoration: underline;
+}
