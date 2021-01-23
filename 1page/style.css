@@ -1,0 +1,122 @@
+* {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  overflow: hidden;
+}
+.main {
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2020/12/10/08/44/mountains-5819652_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.5);
+  animation: scale 0.6s ease-in-out forwards;
+}
+.nav {
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  transform: translateY(-90px);
+  animation: nav 1s ease-in-out forwards;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  flex: 1 1 10rem;
+}
+
+span {
+  position: relative;
+}
+span::after {
+  content: "";
+  position: absolute;
+  border: 1px solid black;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateZ(50deg);
+}
+
+.nav h1,
+.nav nav,
+.nav div {
+  flex: 1 1 10rem;
+}
+.nav nav {
+  flex: 2;
+}
+button {
+  padding: 0.4rem 1rem;
+
+  font-weight: bolder;
+  font-size: 1rem;
+  background: black;
+  color: white;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+
+  font-size: 2rem;
+}
+.section h3 {
+  font-size: 1rem;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-part h4 {
+  transform: rotateZ(270deg);
+}
+.sub-part {
+  transform: translateX(-95%);
+  animation: ekar 1s ease-in-out forwards;
+}
+.links {
+  padding-right: 1rem;
+  animation: ekta 1s ease-in-out forwards;
+  transform: translateX(100px);
+}
+
+@keyframes nav {
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes ekar {
+  to {
+    transform: translateX(-25px);
+  }
+}
+
+@keyframes ekta {
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes scale {
+  to {
+    transform: scale(1);
+  }
+}
+
+button:hover{
+  padding: 0.8rem 2rem;
+}

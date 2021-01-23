@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "Space Grotesk", sans-serif;
+  outline: none;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.left-main {
+  height: 100%;
+  width: 25%;
+  background-color: #f9b205;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex: 2.5;
+}
+
+.navlinks {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  margin-top: 0.3rem;
+  align-items: center;
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  align-items: center;
+}
+.hamburger {
+  width: 7px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+}
+.hamburger::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 11px;
+  height: 2px;
+  background-color: black;
+}
+.hamburger::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 11px;
+  height: 2px;
+  background-color: black;
+}
+
+.content {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+}
+.extra {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+.img {
+  position: relative;
+  height: 60vh;
+  width: 80%;
+  flex: 1;
+}
+.imgside {
+  width: 100%;
+  height: 80%;
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+
+  background-image: url("https://cdn.pixabay.com/photo/2015/05/03/14/40/woman-751236_960_720.jpg");
+}
+.border {
+  display: flex;
+  width: 75.5%;
+  margin: -5px auto 0px auto;
+  height: 20%;
+}
+.black{
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(15, 14, 14);
+  height: 100%;
+  color:#f9b205;
+  align-items: center;
+  text-align: center;
+  font-size: .8rem;
+}
+.part-2{
+  height: 4px;
+  width: 50%;
+  
+  
+  background: linear-gradient(to right, #f9b205 50%,rgb(80, 75, 75) 50%);
+}
+.part-3{
+  filter: brightness(50%);
+}
+.yellow{
+  flex: 1;
+  background-color: #f9b205;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+font-size: 1.2rem;
+}
+
+.content-text {
+  flex: 1;
+}
+.fashion {
+  padding: 0.3rem 1rem;
+  color: white;
+  border: none;
+  background-color: gray;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.right h1 {
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+.right h2 {
+  font-size: 1rem;
+  color: rgb(175, 173, 173);
+  font-weight: bolder;
+  line-height: 1.5rem;
+  word-spacing: 0.3rem;
+}
+
+.sign {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  font-weight: bolder;
+  padding-bottom: 4.4rem;
+}
+h3 {
+  padding-right: 2rem;
+}
+h4 {
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+.button button,
+.button input {
+  padding: 1.5rem 2.5rem;
+  border: none;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.button {
+  padding-top: 1rem;
+}
+.button input {
+}
+.button button {
+  background: #f9b205;
+  margin-left: -5px;
+}
