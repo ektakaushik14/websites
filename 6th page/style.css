@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+.main {
+  height: 100vh;
+}
+.header {
+  height: 10vh;
+  width: 100%;
+  background-color: #ecb10c;
+  display: flex;
+}
+.inside {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlinks {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex: 1;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.inside h1 {
+  flex: 1;
+  display: flex;
+  font-size: 3.2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: flex-start;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 2.2rem;
+}
+.high {
+  color: beige;
+}
+.middle {
+  height: 60%;
+  width: 100%;
+  background-color: black;
+}
+.head {
+  height: 15%;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  color: white;
+}
+.sub-head {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40%;
+  flex: 1;
+  height: 10%;
+  clip-path: circle(32% at 50% 50%);
+}
+img {
+  width: 80%;
+}
+.text {
+  flex: 1;
+
+  height: 100%;
+}
+.text h2 {
+  margin-top: 1rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: #ecb10c;
+  margin-bottom: 1rem;
+}
+.text p {
+  margin-right: 5rem;
+  font-size: 1.2rem;
+  color: rgb(156, 156, 156);
+}
+.line {
+  background-color: black;
+  height: 5%;
+
+  display: flex;
+  align-items: center;
+}
+.centerline {
+  width: 50%;
+  margin: auto;
+  height: 10%;
+  background-color: #646360;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ecb10c 50%, rgb(104, 100, 100) 50%);
+}
+.centerline div {
+  width: 10px;
+  height: 10px;
+  background-color: #ecb10c;
+  border-radius: 50%;
+}
+.last {
+  height: 25%;
+  background-color: #ecb10c;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: #646360;
+}
+.svg {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 60%;
+}
+.svg i {
+  font-size: 4rem;
+  color: #4d4a44;
+}

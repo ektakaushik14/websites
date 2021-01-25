@@ -76,6 +76,7 @@ img {
   display: flex;
   justify-content: center;
   width: 100%;
+  
 }
 
 .part1,
@@ -89,6 +90,7 @@ img {
 }
 .part1 {
   background-color: #fed142;
+  
 }
 .part2 {
   background-color: #50c2a0;
@@ -136,3 +138,4 @@ img {
 span {
   text-decoration: underline;
 }
+
